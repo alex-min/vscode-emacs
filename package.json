@@ -274,7 +274,7 @@
         "when": "editorTextFocus"
       },{
         "key": "ctrl+x ctrl+f",
-        "command": "workbench.action.files.openFolder"
+        "command": "workbench.action.quickOpen"
       },{
         "key": "ctrl+x ctrl+s",
         "command": "workbench.action.files.save",
@@ -340,6 +340,24 @@
         "key": "ctrl+x r",
         "command": "emacs.C-x_r",
         "when": "editorTextFocus"
+      },{
+        "key": "ctrl+x o",
+        "command": "workbench.action.switchWindow"
+      }, {
+        "key": "ctrl+x left",
+        "command": "workbench.action.previousEditor"
+      }, {
+        "key": "ctrl+x right",
+        "command": "workbench.action.nextEditor"
+      }, {
+        "key": "ctrl+x 0",
+        "command": "workbench.action.closeEditorsInGroup"
+      }, {
+        "key": "ctrl+x o",
+        "command": "workbench.action.navigateEditorGroups"
+      }, {
+        "key": "ctrl+x 3",
+        "command": "workbench.action.focusNextGroup"
       }
     ]
   },
